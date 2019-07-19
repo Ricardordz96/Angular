@@ -1,0 +1,25 @@
+[{
+        "id": "0321",
+        "index": 1,
+        "name": "Genius",
+        "affiliation": "Charle",
+        "species": "Mex",
+        "sex": "Male",
+        "fictional": "false",
+        "wikilink": "https://en.wikipedia.org/wiki/Abul-Abbas",
+        "image": "https://elephant-api.herokuapp.com/pictures/001.jpg",
+        "note": "Description Animal"
+    },
+    {
+        "id": "0321",
+        "index": 2,
+        "name": "Barcala",
+        "affiliation": "Dasar",
+        "species": "Usa",
+        "sex": "Male",
+        "fictional": "false",
+        "wikilink": "https://en.wikipedia.org/wiki/Arjuna_(elephant)",
+        "image": "https://elephant-api.herokuapp.com/pictures/002.jpg",
+        "note": "Description Animal"
+    }
+]

@@ -1,0 +1,40 @@
+<div class='card' *ngIf='animal'>
+    <div class='card-header'>
+        {{pageTitle + ': ' + animal.productName}}
+    </div>
+
+    <div class='card-body'>
+        <div class='row'>
+            <div class='col-md-8'>
+                <div class='row'>
+                    <div class='col-md-4'>id:</div>
+                    <div class='col-md-8'>{{animal.id}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>name:</div>
+                    <div class='col-md-8'>{{animal.name}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>affiliation:</div>
+                    <div class='col-md-8'>{{animal.affiliation}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>species:</div>
+                    <div class='col-md-8'>{{animal.species}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>fictional:</div>
+                    <div class='col-md-8'>{{animal.fictional}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>wikilink:</div>
+                    <div class='col-md-8'>{{animal.wikilink}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>image:</div>
+                    <div class='col-md-8'>{{animal.image}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-4'>note:</div>
+                    <div class='col-md-8'>{{animal.note}}</div>
+                </div>
